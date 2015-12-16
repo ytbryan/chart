@@ -17,12 +17,30 @@ At application.js, write `//= require chart` after turbolinks
 ```
 //= require turbolinks
 //= require chart
+//= require nvd3
+```
+
+At application.css, write `*= require nvd3`
+
+```
+*= require tree
+*= require nvd3
 ```
 
 ## Important
 
-Chart ships with ChartJs (1.02).
+Chart ships with ChartJS (1.02) and NVD3.
 
+ChartJS
+* Bar Chart
+* Line Chart
+* Pie Chart
+* Radar Chart
+
+NVD3
+* Box Plot
+* Discrete Bar
+* Horizontal Grouped Bar
 
 ## Development
 
