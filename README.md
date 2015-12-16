@@ -1,15 +1,8 @@
-![Chart](assets/images/pie2.gif)
-
-![Chart](assets/images/radar.gif)
-
-![Chart](assets/images/example3.gif)
-
-![Chart](assets/images/example4.gif)
+![Chart](assets/images/example.gif)
 
 [See an example on heroku](http://chartgemdemo.herokuapp.com) ([Example Source Code](http://github.com/ytbryan/chartdemo))
 
 # Chart
-Chart adds beautiful and reusable charts to Rails.
 It's still a work in progress. Charts are from
 [ChartJS](https://github.com/nnnick/Chart.js/)
 and [NVD3](https://github.com/novus/nvd3).
@@ -63,7 +56,13 @@ At application.css, write `*= require nvd3`
 
 Chart ships with ChartJS (1.02) and NVD3.
 
+
+![Chart](assets/images/radar.gif)
+
 ## Example Usage
+
+![Chart](assets/images/pie.gif)
+
 
 At View
 ```
