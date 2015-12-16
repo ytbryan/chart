@@ -3,8 +3,8 @@ module ChartHelper
   # D3.js related chart
   #
 
-  def horizontal_grouped_bar id=nil, size=nil, data=nil
-    html = "<div style=\"width: #{size[:width]}px; height: #{size[:height]}px;\" id=\"horizontal_grouped_bar_#{id}\" class='with-3d-shadow with-transitions'><svg></svg></div>".html_safe
+  def horizontal_grouped_bar id=nil, size=nil, data=nil, options=nil
+    html = "<div style=\"width: #{size[:width]}px; height: #{size[:height]}px;\" id=\"horizontal_grouped_bar_#{id}\"><svg></svg></div>".html_safe
     script = javascript_tag do
       <<-END.html_safe
       var chart;
@@ -12,16 +12,17 @@ module ChartHelper
           chart = nv.models.multiBarHorizontalChart()
               .x(function(d) { return d.label })
               .y(function(d) { return d.value })
-              .yErr(function(d) { return [-Math.abs(d.value * Math.random() * 0.3), Math.abs(d.value * Math.random() * 0.3)] })
-              .barColor(d3.scale.category20().range())
-              .duration(250)
-              .margin({left: 100})
-              .stacked(true);
+              //.yErr(function(d) { return [-Math.abs(d.value * Math.random() * 0.3), Math.abs(d.value * Math.random() * 0.3)] })
+              //.barColor(d3.scale.category20().range())
+              //.duration(250)
+              .showValues(true)
+              //.margin({left: 100})
+              .stacked(false);
 
           chart.yAxis.tickFormat(d3.format(',.2f'));
 
           chart.yAxis.axisLabel('Y Axis');
-          chart.xAxis.axisLabel('X Axis').axisLabelDistance(20);
+          chart.xAxis.axisLabel('X Axis').axisLabelDistance(100);
 
           d3.select('#horizontal_grouped_bar_#{id} svg')
               .datum(#{data})
@@ -42,7 +43,7 @@ module ChartHelper
     return html + script
   end
 
-  def discrete_bar id=nil, size=nil, data=nil
+  def discrete_bar id=nil, size=nil, data=nil, options=nil
     html = "<div style=\"width: #{size[:width]}px; height: #{size[:height]}px;\" id=\"discrete_bar_#{id}\"><svg></svg></div>".html_safe
     script = javascript_tag do
       <<-END.html_safe
@@ -53,8 +54,7 @@ module ChartHelper
                 .staggerLabels(true)
                 //.staggerLabels(historicalBarChart[0].values.length > 8)
                 .showValues(true)
-                .duration(250)
-                ;
+                //.duration(250);
 
             d3.select('#discrete_bar_#{id} svg')
                 .datum(#{data})
@@ -68,7 +68,7 @@ module ChartHelper
     return html + script
   end
 
-  def boxplot id=nil, size=nil, data=nil
+  def boxplot id=nil, size=nil, data=nil, options=nil
     html = "<div style=\"width: #{size[:width]}px; height: #{size[:height]}px;\" class=\"gallery\" id=\"boxplot_#{id}\"><svg></svg></div>".html_safe
     script = javascript_tag do
       <<-END.html_safe
@@ -77,8 +77,8 @@ module ChartHelper
               .x(function(d) { return d.label })
               .y(function(d) { return d.values.Q3 })
               .staggerLabels(true)
-              .maxBoxWidth(75) // prevent boxes from being incredibly wide
-              .yDomain([0, 500]);
+              .maxBoxWidth(10) // prevent boxes from being incredibly wide
+              .yDomain([0, 700]);
           d3.select('#boxplot_#{id} svg')
               .datum(#{data})
               .call(chart);
@@ -119,7 +119,7 @@ module ChartHelper
   end
 
   def pie id=nil, size=nil, data=nil
-    html  = "<canvas id=\"pie_#{id}\" height=\"450\" width=\"600\"></canvas>".html_safe
+    html  = "<canvas id=\"pie_#{id}\" height=\"#{size[:height]}\" width=\"#{size[:width]}\"></canvas>".html_safe
     script = javascript_tag do
       <<-END.html_safe
         var pieData = #{data}
@@ -131,7 +131,7 @@ module ChartHelper
   end
 
   def radar id=nil, size=nil, data=nil
-    html  = "<canvas id=\"radar_#{id}\" height=\"450\" width=\"600\"></canvas>".html_safe
+    html  = "<canvas id=\"radar_#{id}\" height=\"#{size[:height]}\" width=\"#{size[:width]}\"></canvas>".html_safe
     script = javascript_tag do
       <<-END.html_safe
         var radarChartData = #{data}
