@@ -8,7 +8,56 @@ It's still a work in progress. Charts are from
 [ChartJS](https://github.com/nnnick/Chart.js/)
 and [NVD3](https://github.com/novus/nvd3).
 
-## Usage
+Two flavours to choose from.
+
+ChartJS
+* Bar Chart `<%= bar :id_of_your_chart, size, data %>`
+* Line Chart `<%= line :id, size, data %>`
+* Pie Chart `<%= pie :id, size, data %>`
+* Radar Chart `<%= radar :id, size, data %>`
+* ~~Donut Chart~~
+* ~~Polar Area~~
+
+NVD3
+* Box Plot `<%= boxplot :id, size, data %>`
+* Discrete Bar `<%= discrete_bar :id, size, data %>`
+* Horizontal Grouped Bar `<%= horizontal_grouped_bar :id, size, data %>`
+* ~~Simple Line~~
+* ~~Scatter/Bubble~~
+* ~~Bullet Chart~~
+* ~~Pie Chart~~
+* ~~Line with view finder~~
+* ~~Cumulative Line~~
+
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'chart'
+```
+
+At application.js, write `//= require chart` after turbolinks
+
+```
+//= require turbolinks
+//= require chart
+//= require nvd3
+```
+
+At application.css, write `*= require nvd3`
+
+```
+*= require_tree .
+*= require nvd3
+```
+
+## Important
+
+Chart ships with ChartJS (1.02) and NVD3.
+
+## Example Usage
 
 At View
 ```
@@ -17,7 +66,6 @@ At View
 
 At Controller
 ```
-
 @size1 = {
   height: 500,
   width: 500
@@ -148,46 +196,7 @@ At Controller
           ]
       }
   ].to_json
-
 ```
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'chart'
-```
-
-At application.js, write `//= require chart` after turbolinks
-
-```
-//= require turbolinks
-//= require chart
-//= require nvd3
-```
-
-At application.css, write `*= require nvd3`
-
-```
-*= require_tree .
-*= require nvd3
-```
-
-## Important
-
-Chart ships with ChartJS (1.02) and NVD3.
-
-ChartJS
-* Bar Chart
-* Line Chart
-* Pie Chart
-* Radar Chart
-
-NVD3
-* Box Plot
-* Discrete Bar
-* Horizontal Grouped Bar
 
 ## Development
 
