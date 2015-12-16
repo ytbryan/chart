@@ -23,7 +23,7 @@ At application.js, write `//= require chart` after turbolinks
 At application.css, write `*= require nvd3`
 
 ```
-*= require tree
+*= require_tree .
 *= require nvd3
 ```
 
