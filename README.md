@@ -1,4 +1,10 @@
-![Chart](assets/images/example.gif)
+![Chart](assets/images/pie2.gif)
+
+![Chart](assets/images/radar.gif)
+
+![Chart](assets/images/example3.gif)
+
+![Chart](assets/images/example4.gif)
 
 [See an example on heroku](http://chartgemdemo.herokuapp.com) ([Example Source Code](http://github.com/ytbryan/chartdemo))
 
