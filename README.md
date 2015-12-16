@@ -54,153 +54,60 @@ At application.css, write `*= require nvd3`
 
 ## Important
 
-Chart ships with ChartJS (1.02) and NVD3.
+Chart ships with [ChartJS](https://github.com/nnnick/Chart.js/)(1.02)
+and [NVD3](https://github.com/novus/nvd3).
 
-
-![Chart](assets/images/radar.gif)
 
 ## Example Usage
 
 ![Chart](assets/images/pie.gif)
 
 
-At View
+At your View
 ```
-<%= horizontal_grouped_bar "horizontal_grouped_bar", @size1, @horizontal_grouped_bar_array%>
+<%= pie :pie_chart, @pieSize, @pieData%>
 ```
 
-At Controller
+At your Controller
 ```
-@size1 = {
-  height: 500,
-  width: 500
-}
+@pieSize = {
+    :height => 500,
+    :width => 500
+  }
 
-@horizontal_grouped_bar_array = [
-      {
-          key: 'Series1',
-          values: [
-              {
-                  "label": "Group A" ,
-                  "value": -1.8746444827653
-              } ,
-              {
-                  "label": "Group B" ,
-                  "value": -8.0961543492239
-              } ,
-              {
-                  "label": "Group C" ,
-                  "value": -0.57072943117674
-              } ,
-              {
-                  "label": "Group D" ,
-                  "value": -2.4174010336624
-              } ,
-              {
-                  "label": "Group E" ,
-                  "value": -0.72009071426284
-              } ,
-              {
-                  "label": "Group F" ,
-                  "value": -2.77154485523777
-              } ,
-              {
-                  "label": "Group G" ,
-                  "value": -9.90152097798131
-              } ,
-              {
-                  "label": "Group H" ,
-                  "value": 14.91445417330854
-              } ,
-              {
-                  "label": "Group I" ,
-                  "value": -3.055746319141851
-              }
-          ]
-      },
-      {
-          key: 'Series2',
-          values: [
-              {
-                  "label": "Group A" ,
-                  "value": 25.307646510375
-              } ,
-              {
-                  "label": "Group B" ,
-                  "value": 16.756779544553
-              } ,
-              {
-                  "label": "Group C" ,
-                  "value": 18.451534877007
-              } ,
-              {
-                  "label": "Group D" ,
-                  "value": 8.6142352811805
-              } ,
-              {
-                  "label": "Group E" ,
-                  "value": 7.8082472075876
-              } ,
-              {
-                  "label": "Group F" ,
-                  "value": 5.259101026956
-              } ,
-              {
-                  "label": "Group G" ,
-                  "value": 7.0947953487127
-              } ,
-              {
-                  "label": "Group H" ,
-                  "value": 8
-              } ,
-              {
-                  "label": "Group I" ,
-                  "value": 21
-              }
-          ]
-      },
-      {
-          key: 'Series3',
-          values: [
-              {
-                  "label": "Group A" ,
-                  "value": -14.307646510375
-              } ,
-              {
-                  "label": "Group B" ,
-                  "value": 16.756779544553
-              } ,
-              {
-                  "label": "Group C" ,
-                  "value": -18.451534877007
-              } ,
-              {
-                  "label": "Group D" ,
-                  "value": 8.6142352811805
-              } ,
-              {
-                  "label": "Group E" ,
-                  "value": -7.8082472075876
-              } ,
-              {
-                  "label": "Group F" ,
-                  "value": 15.259101026956
-              } ,
-              {
-                  "label": "Group G" ,
-                  "value": -0.30947953487127
-              } ,
-              {
-                  "label": "Group H" ,
-                  "value": 0
-              } ,
-              {
-                  "label": "Group I" ,
-                  "value": 0
-              }
-          ]
-      }
-  ].to_json
+  @pieData = [
+        {
+          value: 300,
+          color:"#F7464A",
+          highlight: "#FF5A5E",
+          label: "Red"
+        },
+        {
+          value: 50,
+          color: "#46BFBD",
+          highlight: "#5AD3D1",
+          label: "Green"
+        },
+        {
+          value: 100,
+          color: "#FDB45C",
+          highlight: "#FFC870",
+          label: "Yellow"
+        },
+        {
+          value: 40,
+          color: "#949FB1",
+          highlight: "#A8B3C5",
+          label: "Grey"
+        },
+        {
+          value: 120,
+          color: "#4D5360",
+          highlight: "#616774",
+          label: "Dark Grey"
+        }
+
+      ].to_json
 ```
 
 ## Development
