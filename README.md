@@ -4,7 +4,9 @@
 
 # Chart
 Chart adds beautiful and reusable charts to Rails.
-It's still a work in progress. Charts are from ChartJS and NVD3. 
+It's still a work in progress. Charts are from
+[ChartJS](https://github.com/nnnick/Chart.js/)
+and [NVD3](https://github.com/novus/nvd3).
 
 ## Usage
 
