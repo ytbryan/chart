@@ -10,6 +10,10 @@ I was reading up on rails engine and decided to test out my new knowledge by mak
 
 Chart is my solution to quickly add Javascript/HTML chart into rails. You can write coffeescript/javascript to further interact with the rendered chart. Chart is inspired by another awesome gem `chartkick`
 
+The limitation of chart is  that it generates in-line javascript and it does not aim to be a 100% wrapper for all chart.
+
+Chart works with Sprockets and your asset pipeline.
+
 Several flavours to choose from.
 
 ChartJS (MIT)
@@ -28,10 +32,11 @@ Google Chart (Open Source)
 * Line Chart `<%= gLine :id, size, data %>`
 * Pie Chart `<%= gPie :id, size, data %>`
 
-Highchart (Free for personal usage but paid for Commercial)
-*
-*
-*
+Highchart (Free for Personal usage but paid for Commercial)
+* Bar Chart `<%= hBar %>`
+* Line Chart `<%= hLine %>`
+* Pie Chart `<%= hPie %>`
+* Area Chart `<%= hArea %>`
 
 
 ## Installation
