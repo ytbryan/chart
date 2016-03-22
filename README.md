@@ -51,18 +51,17 @@ At Application.js, write `//= require chart` after turbolinks. Only require the 
 
 ```
 //= require turbolinks
-//= require chart #chartjs
-//= require nvd3  #nvd3
-//= require google #google chart
-//= require chartlist
+//= require chart
+//= require nv.d3  
+//= require google
 //= require highchart
 ```
 
-At Application.css, write `*= require nvd3`
+At Application.css, write `*= require nv.d3`
 
 ```
 *= require_tree .
-*= require nvd3
+*= require nv.d3
 ```
 
 ## Important
@@ -70,9 +69,9 @@ At Application.css, write `*= require nvd3`
 Chart ships with the following awesome charts:  
 
 * [ChartJS](https://github.com/nnnick/Chart.js/)(1.02)
-* [NVD3](https://github.com/novus/nvd3)
-* [Google Chart](https://github.com/novus/nvd3)
-* [Chartlist](https://github.com/novus/nvd3)
+* [NVD3](https://github.com/novus/nvd3)(1.8.2)
+* [Google Chart](https://developers.google.com/chart/)
+* [Highchart](http://www.highcharts.com)(4.2.3)
 
 ## Example Usage
 
