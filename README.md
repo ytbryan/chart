@@ -16,13 +16,13 @@ Chart works with Sprockets and your asset pipeline.
 
 Several flavours to choose from.
 
-ChartJS (MIT)
+ChartJS (MIT License)
 * Bar Chart `<%= bar :id_of_your_chart, size, data %>`
 * Line Chart `<%= line :id, size, data %>`
 * Pie Chart `<%= pie :id, size, data %>`
 * Radar Chart `<%= radar :id, size, data %>`
 
-NVD3 (MIT)
+NVD3 (MIT License)
 * Box Plot `<%= boxplot :id, size, data %>`
 * Discrete Bar `<%= discrete_bar :id, size, data %>`
 * Horizontal Grouped Bar `<%= horizontal_grouped_bar :id, size, data %>`
@@ -52,9 +52,9 @@ At Application.js, write `//= require chart` after turbolinks. Only require the 
 ```
 //= require turbolinks
 //= require chart
-//= require nvd3  
+//= require nvd3
 //= require google
-//= require highchart
+//= require highcharts
 ```
 
 At Application.css, write `*= require nvd3`
