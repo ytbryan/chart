@@ -52,31 +52,30 @@ At Application.js, write `//= require chart` after turbolinks. Only require the 
 ```
 //= require turbolinks
 //= require chart
-//= require nv.d3  
+//= require nvd3  
 //= require google
 //= require highchart
 ```
 
-At Application.css, write `*= require nv.d3`
+At Application.css, write `*= require nvd3`
 
 ```
 *= require_tree .
-*= require nv.d3
+*= require nvd3
 ```
 
 ## Important
 
 Chart ships with the following awesome charts:  
 
-* [ChartJS](https://github.com/nnnick/Chart.js/)(1.02)
-* [NVD3](https://github.com/novus/nvd3)(1.8.2)
+* [ChartJS](https://github.com/nnnick/Chart.js/) (1.02)
+* [NVD3](https://github.com/novus/nvd3) (1.8.2)
 * [Google Chart](https://developers.google.com/chart/)
-* [Highchart](http://www.highcharts.com)(4.2.3)
+* [Highchart](http://www.highcharts.com) (4.2.3)
 
 ## Example Usage
 
 ![Chart](assets/images/pie.gif)
-
 
 At your View
 ```
