@@ -2,6 +2,13 @@
 
 [See an example on heroku](http://chartgemdemo.herokuapp.com) ([Example Source Code](http://github.com/ytbryan/chartdemo))
 
+Chart ships with the following awesome charts:  
+
+* [ChartJS](https://github.com/nnnick/Chart.js/) (1.1.1)
+* [NVD3](https://github.com/novus/nvd3) (1.8.2)
+* [Google Chart](https://developers.google.com/chart/)
+* [Highchart](http://www.highcharts.com) (4.2.3)
+
 # Chart
 
 ## The motivation for making `chart`
@@ -63,15 +70,6 @@ At Application.css, write `*= require nvd3`
 *= require_tree .
 *= require nvd3
 ```
-
-## Important
-
-Chart ships with the following awesome charts:  
-
-* [ChartJS](https://github.com/nnnick/Chart.js/) (1.10)
-* [NVD3](https://github.com/novus/nvd3) (1.8.2)
-* [Google Chart](https://developers.google.com/chart/)
-* [Highchart](http://www.highcharts.com) (4.2.3)
 
 ## Example Usage
 
