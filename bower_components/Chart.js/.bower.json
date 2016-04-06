@@ -17,12 +17,12 @@
     "package.json"
   ],
   "dependencies": {},
-  "version": "1.1.0",
-  "_release": "1.1.0",
+  "version": "1.1.1",
+  "_release": "1.1.1",
   "_resolution": {
     "type": "version",
-    "tag": "v1.1.0",
-    "commit": "ef923dfe289fc41326be58f3f6e4d991c8eb741f"
+    "tag": "v1.1.1",
+    "commit": "a62537a80029cd5a2e230769a652904e2de2d5d4"
   },
   "_source": "git://github.com/nnnick/Chart.js.git",
   "_target": "^1.0.2",
