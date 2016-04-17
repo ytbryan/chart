@@ -2,7 +2,7 @@ module ChartHelper
 
 
   #
-  #
+  # TO DO 
   # Highcharts
   def hLine
     html = "<div id=\"container\" style=\"min-width: 310px; height: 400px; margin: 0 auto\"></div>".html_safe
@@ -60,7 +60,6 @@ module ChartHelper
     end
     return html + script
   end
-
 
   def hArea
     html = "<div id=\"container_area\" style=\"min-width: 310px; height: 400px; margin: 0 auto\"></div>".html_safe
@@ -140,7 +139,6 @@ module ChartHelper
     return html + script
   end
 
-
   def hBar
     html = "<div id=\"container_bar\" style=\"min-width: 310px; height: 400px; margin: 0 auto\"></div>".html_safe
     script = javascript_tag do
@@ -213,10 +211,6 @@ module ChartHelper
     return html + script
   end
 
-
-
-
-
   def hPie
     html = "<div id=\"container_pie\" style=\"min-width: 310px; height: 400px; margin: 0 auto\"></div>".html_safe
     script = javascript_tag do
@@ -286,18 +280,10 @@ module ChartHelper
   # Google Chart
 
   def gBar
-
-
   end
-
 
   def gLine
-
   end
-
-
-
-
 
 
   #
