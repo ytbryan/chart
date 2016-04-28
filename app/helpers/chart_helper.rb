@@ -1,8 +1,6 @@
 module ChartHelper
-
-
   #
-  # TO DO 
+  # TO DO
   # Highcharts
   def hLine
     html = "<div id=\"container\" style=\"min-width: 310px; height: 400px; margin: 0 auto\"></div>".html_safe
