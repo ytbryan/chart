@@ -94,9 +94,6 @@ module GoogleHelper
       return html + script
     end
 
-
-
-
     def google_gauge_charts
       html = "<div id=\"chart_div\" style=\"width: 400px; height: 120px;\"></div>".html_safe
       script = javascript_tag do
@@ -141,8 +138,6 @@ module GoogleHelper
       end
       return html + script
     end
-
-
 
     def google_bar
       html = "<div id=\"barchart_values\" style=\"width: 900px; height: 300px;\"></div>".html_safe
@@ -223,7 +218,6 @@ module GoogleHelper
       return html + script
     end
 
-
     def google_calendar
       html = "<div id=\"calendar_basic\" style=\"width: 1000px; height: 350px;\"></div>".html_safe
       script = javascript_tag do
@@ -266,6 +260,38 @@ module GoogleHelper
       end
       return html + script
     end
+
+    def google_scatterchart
+      html = "<div id=\"chart_div\" style=\"width: 900px; height: 500px;\"></div>".html_safe
+      script = javascript_tag do
+        <<-END.html_safe
+          google.charts.load('current', {'packages':['corechart']});
+          google.charts.setOnLoadCallback(drawChart);
+          function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+              ['Age', 'Weight'],
+              [ 8,      12],
+              [ 4,      5.5],
+              [ 11,     14],
+              [ 4,      5],
+              [ 3,      3.5],
+              [ 6.5,    7]
+            ]);
+            var options = {
+              title: 'Age vs. Weight comparison',
+              hAxis: {title: 'Age', minValue: 0, maxValue: 15},
+              vAxis: {title: 'Weight', minValue: 0, maxValue: 15},
+              legend: 'none'
+            };
+            var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+          }
+
+        END
+      end
+      return html + script
+    end
+
 
 
     # def google_area
