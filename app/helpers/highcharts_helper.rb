@@ -1,8 +1,7 @@
 module HighchartsHelper
   #
-  # TO DO
   # Highcharts
-  def hLine
+  def highcharts_line
     html = "<div id=\"container\" style=\"min-width: 310px; height: 400px; margin: 0 auto\"></div>".html_safe
     script = javascript_tag do
       <<-END.html_safe
@@ -59,7 +58,7 @@ module HighchartsHelper
     return html + script
   end
 
-  def hArea
+  def highcharts_area
     html = "<div id=\"container_area\" style=\"min-width: 310px; height: 400px; margin: 0 auto\"></div>".html_safe
     script = javascript_tag do
       <<-END.html_safe
@@ -137,7 +136,7 @@ module HighchartsHelper
     return html + script
   end
 
-  def hBar
+  def highcharts_bar
     html = "<div id=\"container_bar\" style=\"min-width: 310px; height: 400px; margin: 0 auto\"></div>".html_safe
     script = javascript_tag do
       <<-END.html_safe
@@ -209,7 +208,7 @@ module HighchartsHelper
     return html + script
   end
 
-  def hPie
+  def highcharts_pie
     html = "<div id=\"container_pie\" style=\"min-width: 310px; height: 400px; margin: 0 auto\"></div>".html_safe
     script = javascript_tag do
       <<-END.html_safe
