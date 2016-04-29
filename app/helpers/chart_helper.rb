@@ -1,9 +1,5 @@
 module ChartHelper
 
-  #
-  # D3.js related chart
-  #
-
   def horizontal_grouped_bar id=nil, size=nil, data=nil, options=nil
     html = "<div style=\"width: #{size[:width]}px; height: #{size[:height]}px;\" id=\"horizontal_grouped_bar_#{id}\"><svg></svg></div>".html_safe
     script = javascript_tag do
