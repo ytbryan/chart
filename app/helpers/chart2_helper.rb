@@ -9,7 +9,6 @@ module Chart2Helper
     return html + script
   end
 
-
   def chart2_line
     html = "".html_safe
     script = javascript_tag do
