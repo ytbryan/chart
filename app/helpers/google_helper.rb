@@ -3,7 +3,7 @@ module GoogleHelper
     #
     #
     # Google Chart
-    def google_pie
+    def google_pie id=nil, size=nil
       html = "<div id=\"piechart\" style=\"width: 900px; height: 500px;\"></div>".html_safe
       script = javascript_tag do
         <<-END.html_safe
@@ -35,7 +35,7 @@ module GoogleHelper
       return html + script
     end
 
-    def google_area
+    def google_area id=nil, size=nil
       html = "<div id=\"chart_div\" style=\"width: 900px; height: 500px;\"></div>".html_safe
       script = javascript_tag do
         <<-END.html_safe
@@ -64,7 +64,7 @@ module GoogleHelper
       return html + script
     end
 
-    def google_geochart
+    def google_geochart id=nil, size=nil
       html = "<div id=\"regions_div\" style=\"width: 900px; height: 500px;\"></div>".html_safe
       script = javascript_tag do
         <<-END.html_safe
@@ -94,7 +94,7 @@ module GoogleHelper
       return html + script
     end
 
-    def google_gauge_charts
+    def google_gauge_charts id=nil, size=nil
       html = "<div id=\"chart_div\" style=\"width: 400px; height: 120px;\"></div>".html_safe
       script = javascript_tag do
         <<-END.html_safe
@@ -139,7 +139,7 @@ module GoogleHelper
       return html + script
     end
 
-    def google_bar
+    def google_bar id=nil, size=nil
       html = "<div id=\"barchart_values\" style=\"width: 900px; height: 300px;\"></div>".html_safe
       script = javascript_tag do
         <<-END.html_safe
@@ -178,7 +178,7 @@ module GoogleHelper
       return html + script
     end
 
-    def google_bubble
+    def google_bubble id=nil, size=nil
       html = "<div id=\"series_chart_div\" style=\"width: 900px; height: 500px;\"></div>".html_safe
       script = javascript_tag do
         <<-END.html_safe
@@ -218,7 +218,7 @@ module GoogleHelper
       return html + script
     end
 
-    def google_calendar
+    def google_calendar id=nil, size=nil
       html = "<div id=\"calendar_basic\" style=\"width: 1000px; height: 350px;\"></div>".html_safe
       script = javascript_tag do
         <<-END.html_safe
@@ -261,7 +261,7 @@ module GoogleHelper
       return html + script
     end
 
-    def google_scatterchart
+    def google_scatterchart id=nil, size=nil
       html = "<div id=\"chart_div\" style=\"width: 900px; height: 500px;\"></div>".html_safe
       script = javascript_tag do
         <<-END.html_safe
