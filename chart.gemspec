@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Chart::VERSION
   spec.authors       = ["Bryan Lim"]
   spec.email         = ["ytbryan@gmail.com"]
-  spec.summary       = %q{add beautiful and reusable charts with one line of ruby  Charts from ChartJS.}
-  spec.description   = %q{Add beautiful and reusable charts with one line of ruby https://github.com/ytbryan/chart}
+  spec.summary       = %q{Add beautiful and reusable charts with one line of ruby ChartJS, NVD3, Google Chart and Highchart.}
+  spec.description   = %q{Add beautiful and reusable charts with one line of ruby ChartJS, NVD3, Google Chart and Highchart.}
   spec.homepage      = "http://github.com/ytbryan/chart"
   spec.license       = "MIT"
   spec.files         = Dir["{app,lib,vendor}/**/*", "LICENSE", "README.md"]
