@@ -4,7 +4,7 @@
 
 Chart ships with the following awesome charts:  
 
-* [ChartJS](https://github.com/nnnick/Chart.js/) (1.1.1 & 2.1.3)
+* [ChartJS](https://github.com/nnnick/Chart.js/) (1.1.1 & 2.1.4)
 * [NVD3](https://github.com/novus/nvd3) (1.8.2)
 * [Google Chart](https://developers.google.com/chart/)
 * [Highchart](http://www.highcharts.com) (4.2.5)
