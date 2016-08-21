@@ -8,7 +8,10 @@ module.exports = function(Chart) {
 
 		scale: {
 			type: "radialLinear",
-			lineArc: true // so that lines are circular
+			lineArc: true, // so that lines are circular
+			ticks: {
+				beginAtZero: true
+			}
 		},
 
 		//Boolean - Whether to animate the rotation of the chart
@@ -17,6 +20,7 @@ module.exports = function(Chart) {
 			animateScale: true
 		},
 
+		startAngle: -0.5 * Math.PI,
 		aspectRatio: 1,
 		legendCallback: function(chart) {
 			var text = [];
@@ -105,7 +109,7 @@ module.exports = function(Chart) {
 
 		linkScales: helpers.noop,
 
-		update: function update(reset) {
+		update: function(reset) {
 			var me = this;
 			var chart = me.chart;
 			var chartArea = chart.chartArea;
@@ -130,19 +134,16 @@ module.exports = function(Chart) {
 		updateElement: function(arc, index, reset) {
 			var me = this;
 			var chart = me.chart;
-			var chartArea = chart.chartArea;
 			var dataset = me.getDataset();
 			var opts = chart.options;
 			var animationOpts = opts.animation;
-			var arcOpts = opts.elements.arc;
-			var custom = arc.custom || {};
 			var scale = chart.scale;
 			var getValueAtIndexOrDefault = helpers.getValueAtIndexOrDefault;
 			var labels = chart.data.labels;
 
 			var circumference = me.calculateCircumference(dataset.data[index]);
-			var centerX = (chartArea.left + chartArea.right) / 2;
-			var centerY = (chartArea.top + chartArea.bottom) / 2;
+			var centerX = scale.xCenter;
+			var centerY = scale.yCenter;
 
 			// If there is NaN data before us, we need to calculate the starting angle correctly.
 			// We could be way more efficient here, but its unlikely that the polar area chart will have a lot of data
@@ -154,9 +155,10 @@ module.exports = function(Chart) {
 				}
 			}
 
-			var negHalfPI = -0.5 * Math.PI;
+			//var negHalfPI = -0.5 * Math.PI;
+			var datasetStartAngle = opts.startAngle;
 			var distance = arc.hidden ? 0 : scale.getDistanceFromCenterForValue(dataset.data[index]);
-			var startAngle = (negHalfPI) + (circumference * visibleCount);
+			var startAngle = datasetStartAngle + (circumference * visibleCount);
 			var endAngle = startAngle + (arc.hidden ? 0 : circumference);
 
 			var resetRadius = animationOpts.animateScale ? 0 : scale.getDistanceFromCenterForValue(dataset.data[index]);
@@ -173,8 +175,8 @@ module.exports = function(Chart) {
 					y: centerY,
 					innerRadius: 0,
 					outerRadius: reset ? resetRadius : distance,
-					startAngle: reset && animationOpts.animateRotate ? negHalfPI : startAngle,
-					endAngle: reset && animationOpts.animateRotate ? negHalfPI : endAngle,
+					startAngle: reset && animationOpts.animateRotate ? datasetStartAngle : startAngle,
+					endAngle: reset && animationOpts.animateRotate ? datasetStartAngle : endAngle,
 					label: getValueAtIndexOrDefault(labels, index, labels[index])
 				}
 			});
