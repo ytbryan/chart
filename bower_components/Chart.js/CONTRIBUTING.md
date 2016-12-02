@@ -21,7 +21,7 @@ Reporting bugs
 
 Well structured, detailed bug reports are hugely valuable for the project.
 
-Guidlines for reporting bugs:
+Guidelines for reporting bugs:
 
  - Check the issue search to see if it has already been reported
  - Isolate the problem to a simple test case
@@ -56,7 +56,7 @@ Guidelines:
 Joining the project
 -------------
  - Active committers and contributors are invited to introduce yourself and request commit access to this project.  Please send an email to hello@nickdownie.com or file an issue.
- - We have a very active Slack community that you can join at https://chartjs-slack-automation.herokuapp.com. If you think you can help, we'd love to have you!
+ - We have a very active Slack community that you can join [here](https://chart-js-automation.herokuapp.com/). If you think you can help, we'd love to have you!
 
 License
 -------

@@ -1,5 +1,5 @@
-/*global window: false */
-"use strict";
+/* global window: false */
+'use strict';
 
 module.exports = function(Chart) {
 
@@ -7,7 +7,7 @@ module.exports = function(Chart) {
 
 	Chart.defaults.global.animation = {
 		duration: 1000,
-		easing: "easeOutQuart",
+		easing: 'easeOutQuart',
 		onProgress: helpers.noop,
 		onComplete: helpers.noop
 	};
@@ -15,7 +15,7 @@ module.exports = function(Chart) {
 	Chart.Animation = Chart.Element.extend({
 		currentStep: null, // the current animation step
 		numSteps: 60, // default number of steps
-		easing: "", // the easing to use for this animation
+		easing: '', // the easing to use for this animation
 		render: null, // render function used by the animation service
 
 		onAnimationProgress: null, // user specified callback to fire on each step of the animation
@@ -27,6 +27,14 @@ module.exports = function(Chart) {
 		animations: [],
 		dropFrames: 0,
 		request: null,
+
+		/**
+		 * @function Chart.animationService.addAnimation
+		 * @param chartInstance {ChartController} the chart to animate
+		 * @param animationObject {IAnimation} the animation that we will animate
+		 * @param duration {Number} length of animation in ms
+		 * @param lazy {Boolean} if true, the chart is not marked as animating to enable more responsive interactions
+		 */
 		addAnimation: function(chartInstance, animationObject, duration, lazy) {
 			var me = this;
 

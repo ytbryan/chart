@@ -1,8 +1,15 @@
 {
   "name": "peity",
-  "version": "3.2.0",
-  "description": "Peity (sounds like deity) is a simple jQuery plugin that converts an element's content into a simple mini `svg` pie, line or bar chart.",
+  "version": "3.2.1",
+  "description": "Peity (sounds like deity) is a jQuery plugin that converts an element's content into a mini `svg` pie, line or bar chart.",
   "main": "jquery.peity.js",
+  "files": [
+    "CHANGELOG.md",
+    "LICENCE",
+    "README.md",
+    "jquery.peity.js",
+    "jquery.peity.min.js"
+  ],
   "devDependencies": {
     "ejs": "~0.8.5",
     "express": "~3.4.8",
