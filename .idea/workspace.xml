@@ -2,244 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10c57660-f639-4c7f-8bbd-67649bb3ca34" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/AnimationCallbacks/progress-bar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/bar-horizontal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/bar-multi-axis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/bar-stacked.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/bar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/data_label_combo-bar-line.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/different-point-sizes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/line-customTooltips.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/line-legend.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/line-logarithmic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/line-multi-axis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/line-multiline-labels.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/line-non-numeric-y.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/line-skip-points.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/line-stacked-area.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/line-stepped.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/line-x-axis-filter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/line.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/pie-customTooltips.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/radar-skip-points.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/radar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/scatter-logX.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/scatter-multi-axis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/scatter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/timeScale/combo-time-scale.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/timeScale/line-time-point-data.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/timeScale/line-time-scale.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/tooltip-hooks.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/rnotwhite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/peity/MIT-LICENCE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/peity/README.markdown" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/.bower.json" afterPath="$PROJECT_DIR$/bower_components/Chart.js/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/.codeclimate.yml" afterPath="$PROJECT_DIR$/bower_components/Chart.js/.codeclimate.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/.eslintrc" afterPath="$PROJECT_DIR$/bower_components/Chart.js/.eslintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/.github/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/bower_components/Chart.js/.github/ISSUE_TEMPLATE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/.gitignore" afterPath="$PROJECT_DIR$/bower_components/Chart.js/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/.travis.yml" afterPath="$PROJECT_DIR$/bower_components/Chart.js/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/bower_components/Chart.js/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/README.md" afterPath="$PROJECT_DIR$/bower_components/Chart.js/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/docs/00-Getting-Started.md" afterPath="$PROJECT_DIR$/bower_components/Chart.js/docs/00-Getting-Started.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/docs/01-Chart-Configuration.md" afterPath="$PROJECT_DIR$/bower_components/Chart.js/docs/01-Chart-Configuration.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/docs/02-Scales.md" afterPath="$PROJECT_DIR$/bower_components/Chart.js/docs/02-Scales.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/docs/03-Line-Chart.md" afterPath="$PROJECT_DIR$/bower_components/Chart.js/docs/03-Line-Chart.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/docs/04-Bar-Chart.md" afterPath="$PROJECT_DIR$/bower_components/Chart.js/docs/04-Bar-Chart.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/docs/05-Radar-Chart.md" afterPath="$PROJECT_DIR$/bower_components/Chart.js/docs/05-Radar-Chart.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/docs/06-Polar-Area-Chart.md" afterPath="$PROJECT_DIR$/bower_components/Chart.js/docs/06-Polar-Area-Chart.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/docs/07-Pie-Doughnut-Chart.md" afterPath="$PROJECT_DIR$/bower_components/Chart.js/docs/07-Pie-Doughnut-Chart.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/docs/08-Bubble-Chart.md" afterPath="$PROJECT_DIR$/bower_components/Chart.js/docs/08-Bubble-Chart.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/docs/09-Advanced.md" afterPath="$PROJECT_DIR$/bower_components/Chart.js/docs/09-Advanced.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/docs/10-Notes.md" afterPath="$PROJECT_DIR$/bower_components/Chart.js/docs/10-Notes.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/gulpfile.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/package.json" afterPath="$PROJECT_DIR$/bower_components/Chart.js/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/bubble.html" afterPath="$PROJECT_DIR$/bower_components/Chart.js/samples/bubble.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/combo-bar-line.html" afterPath="$PROJECT_DIR$/bower_components/Chart.js/samples/combo-bar-line.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/doughnut.html" afterPath="$PROJECT_DIR$/bower_components/Chart.js/samples/doughnut.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/pie.html" afterPath="$PROJECT_DIR$/bower_components/Chart.js/samples/pie.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/samples/polar-area.html" afterPath="$PROJECT_DIR$/bower_components/Chart.js/samples/polar-area.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/chart.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/chart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/charts/Chart.Bar.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/charts/Chart.Bar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/charts/Chart.Bubble.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/charts/Chart.Bubble.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/charts/Chart.Doughnut.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/charts/Chart.Doughnut.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/charts/Chart.Line.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/charts/Chart.Line.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/charts/Chart.PolarArea.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/charts/Chart.PolarArea.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/charts/Chart.Radar.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/charts/Chart.Radar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/charts/Chart.Scatter.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/charts/Chart.Scatter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/controllers/controller.bar.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/controllers/controller.bar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/controllers/controller.bubble.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/controllers/controller.bubble.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/controllers/controller.doughnut.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/controllers/controller.doughnut.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/controllers/controller.line.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/controllers/controller.line.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/controllers/controller.polarArea.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/controllers/controller.polarArea.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/controllers/controller.radar.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/controllers/controller.radar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.animation.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.animation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.canvasHelpers.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.canvasHelpers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.controller.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.datasetController.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.datasetController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.element.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.element.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.helpers.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.helpers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.layoutService.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.layoutService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.legend.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.legend.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.plugin.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.scale.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.scale.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.scaleService.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.scaleService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.title.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.title.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.tooltip.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/core/core.tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/elements/element.arc.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/elements/element.arc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/elements/element.line.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/elements/element.line.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/elements/element.point.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/elements/element.point.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/elements/element.rectangle.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/elements/element.rectangle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/scales/scale.category.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/scales/scale.category.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/scales/scale.linear.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/scales/scale.linear.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/scales/scale.linearbase.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/scales/scale.linearbase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/scales/scale.logarithmic.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/scales/scale.logarithmic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/scales/scale.radialLinear.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/scales/scale.radialLinear.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/src/scales/scale.time.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/src/scales/scale.time.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/controller.bar.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/controller.bar.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/controller.bubble.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/controller.bubble.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/controller.doughnut.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/controller.doughnut.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/controller.line.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/controller.line.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/controller.polarArea.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/controller.polarArea.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/controller.radar.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/controller.radar.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/core.element.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/core.element.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/core.helpers.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/core.helpers.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/core.layoutService.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/core.layoutService.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/core.legend.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/core.legend.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/core.plugin.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/core.plugin.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/core.scaleService.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/core.scaleService.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/core.title.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/core.title.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/core.tooltip.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/core.tooltip.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/defaultConfig.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/defaultConfig.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/element.arc.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/element.arc.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/element.line.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/element.line.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/element.point.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/element.point.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/element.rectangle.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/element.rectangle.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/mockContext.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/mockContext.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/scale.category.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/scale.category.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/scale.linear.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/scale.linear.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/scale.logarithmic.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/scale.logarithmic.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/scale.radialLinear.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/scale.radialLinear.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/Chart.js/test/scale.time.tests.js" afterPath="$PROJECT_DIR$/bower_components/Chart.js/test/scale.time.tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/google-apis/.bower.json" afterPath="$PROJECT_DIR$/bower_components/google-apis/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/google-apis/bower.json" afterPath="$PROJECT_DIR$/bower_components/google-apis/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/google-chart/.bower.json" afterPath="$PROJECT_DIR$/bower_components/google-chart/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/google-chart/README.md" afterPath="$PROJECT_DIR$/bower_components/google-chart/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/google-chart/bower.json" afterPath="$PROJECT_DIR$/bower_components/google-chart/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/google-chart/demo/index.html" afterPath="$PROJECT_DIR$/bower_components/google-chart/demo/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/google-chart/google-chart-loader.html" afterPath="$PROJECT_DIR$/bower_components/google-chart/google-chart-loader.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/google-chart/google-chart.html" afterPath="$PROJECT_DIR$/bower_components/google-chart/google-chart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/.bower.json" afterPath="$PROJECT_DIR$/bower_components/highcharts/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/bower.json" afterPath="$PROJECT_DIR$/bower_components/highcharts/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/highcharts-3d.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/highcharts-3d.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/highcharts-3d.src.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/highcharts-3d.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/highcharts-more.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/highcharts-more.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/highcharts-more.src.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/highcharts-more.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/highcharts.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/highcharts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/highcharts.src.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/highcharts.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/highmaps.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/highmaps.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/highmaps.src.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/highmaps.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/highstock.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/highstock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/highstock.src.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/highstock.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/boost.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/boost.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/boost.src.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/boost.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/broken-axis.src.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/broken-axis.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/canvas-tools.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/canvas-tools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/canvas-tools.src.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/canvas-tools.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/data.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/data.src.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/data.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/drilldown.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/drilldown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/drilldown.src.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/drilldown.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/exporting.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/exporting.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/exporting.src.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/exporting.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/heatmap.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/heatmap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/heatmap.src.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/heatmap.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/map.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/map.src.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/map.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/no-data-to-display.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/no-data-to-display.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/no-data-to-display.src.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/no-data-to-display.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/offline-exporting.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/offline-exporting.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/offline-exporting.src.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/offline-exporting.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/solid-gauge.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/solid-gauge.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/solid-gauge.src.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/solid-gauge.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/treemap.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/treemap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/modules/treemap.src.js" afterPath="$PROJECT_DIR$/bower_components/highcharts/modules/treemap.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/highcharts/package.json" afterPath="$PROJECT_DIR$/bower_components/highcharts/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/.bower.json" afterPath="$PROJECT_DIR$/bower_components/jquery/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/AUTHORS.txt" afterPath="$PROJECT_DIR$/bower_components/jquery/AUTHORS.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/core.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.min.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.min.map" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/dist/sizzle.js" afterPath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/dist/sizzle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/dist/sizzle.min.js" afterPath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/dist/sizzle.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/dist/sizzle.min.map" afterPath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/dist/sizzle.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/load.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/attr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/classes.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/classes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/prop.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/prop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/val.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/callbacks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/access.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/access.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/ready-no-deferred.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/ready-no-deferred.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/showHide.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/showHide.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/data.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data/Data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/effects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/event.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/exports/global.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/exports/global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/jquery.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/getAll.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/getAll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/serialize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing/findFilter.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/traversing/findFilter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/nvd3/.bower.json" afterPath="$PROJECT_DIR$/bower_components/nvd3/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/nvd3/build/nv.d3.css" afterPath="$PROJECT_DIR$/bower_components/nvd3/build/nv.d3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/nvd3/build/nv.d3.js" afterPath="$PROJECT_DIR$/bower_components/nvd3/build/nv.d3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/nvd3/build/nv.d3.min.css" afterPath="$PROJECT_DIR$/bower_components/nvd3/build/nv.d3.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/nvd3/build/nv.d3.min.css.map" afterPath="$PROJECT_DIR$/bower_components/nvd3/build/nv.d3.min.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/nvd3/build/nv.d3.min.js" afterPath="$PROJECT_DIR$/bower_components/nvd3/build/nv.d3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/nvd3/build/nv.d3.min.js.map" afterPath="$PROJECT_DIR$/bower_components/nvd3/build/nv.d3.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/nvd3/package.js" afterPath="$PROJECT_DIR$/bower_components/nvd3/package.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/peity/.bower.json" afterPath="$PROJECT_DIR$/bower_components/peity/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/peity/CHANGELOG.md" afterPath="$PROJECT_DIR$/bower_components/peity/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/peity/bower.json" afterPath="$PROJECT_DIR$/bower_components/peity/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/peity/index.html" afterPath="$PROJECT_DIR$/bower_components/peity/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/peity/jquery.peity.js" afterPath="$PROJECT_DIR$/bower_components/peity/jquery.peity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/peity/jquery.peity.min.js" afterPath="$PROJECT_DIR$/bower_components/peity/jquery.peity.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/peity/package.json" afterPath="$PROJECT_DIR$/bower_components/peity/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/polymer/.bower.json" afterPath="$PROJECT_DIR$/bower_components/polymer/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/polymer/bower.json" afterPath="$PROJECT_DIR$/bower_components/polymer/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/polymer/build.log" afterPath="$PROJECT_DIR$/bower_components/polymer/build.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/polymer/polymer-micro.html" afterPath="$PROJECT_DIR$/bower_components/polymer/polymer-micro.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/polymer/polymer.html" afterPath="$PROJECT_DIR$/bower_components/polymer/polymer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/webcomponentsjs/.bower.json" afterPath="$PROJECT_DIR$/bower_components/webcomponentsjs/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/webcomponentsjs/CustomElements.js" afterPath="$PROJECT_DIR$/bower_components/webcomponentsjs/CustomElements.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/webcomponentsjs/CustomElements.min.js" afterPath="$PROJECT_DIR$/bower_components/webcomponentsjs/CustomElements.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/webcomponentsjs/HTMLImports.js" afterPath="$PROJECT_DIR$/bower_components/webcomponentsjs/HTMLImports.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/webcomponentsjs/HTMLImports.min.js" afterPath="$PROJECT_DIR$/bower_components/webcomponentsjs/HTMLImports.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/webcomponentsjs/MutationObserver.js" afterPath="$PROJECT_DIR$/bower_components/webcomponentsjs/MutationObserver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/webcomponentsjs/MutationObserver.min.js" afterPath="$PROJECT_DIR$/bower_components/webcomponentsjs/MutationObserver.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/webcomponentsjs/README.md" afterPath="$PROJECT_DIR$/bower_components/webcomponentsjs/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/webcomponentsjs/ShadowDOM.js" afterPath="$PROJECT_DIR$/bower_components/webcomponentsjs/ShadowDOM.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/webcomponentsjs/ShadowDOM.min.js" afterPath="$PROJECT_DIR$/bower_components/webcomponentsjs/ShadowDOM.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/webcomponentsjs/bower.json" afterPath="$PROJECT_DIR$/bower_components/webcomponentsjs/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/webcomponentsjs/build.log" afterPath="$PROJECT_DIR$/bower_components/webcomponentsjs/build.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/webcomponentsjs/package.json" afterPath="$PROJECT_DIR$/bower_components/webcomponentsjs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/webcomponentsjs/webcomponents-lite.js" afterPath="$PROJECT_DIR$/bower_components/webcomponentsjs/webcomponents-lite.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/webcomponentsjs/webcomponents-lite.min.js" afterPath="$PROJECT_DIR$/bower_components/webcomponentsjs/webcomponents-lite.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/webcomponentsjs/webcomponents.js" afterPath="$PROJECT_DIR$/bower_components/webcomponentsjs/webcomponents.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/webcomponentsjs/webcomponents.min.js" afterPath="$PROJECT_DIR$/bower_components/webcomponentsjs/webcomponents.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/chart2.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/chart2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/highcharts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/nvd3.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/nvd3.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -272,17 +35,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chart2.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chart2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/chart2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="315">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <marker date="1480701398000" expanded="true" signature="83329:83346" ph="..." />
                 <marker date="1480701398000" expanded="true" signature="113517:113534" ph="..." />
                 <marker date="1480701398000" expanded="true" signature="246095:246112" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nvd3.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/nvd3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="64" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nv.d3.min.css.map" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower_components/nvd3/build/nv.d3.min.css.map">
+          <provider editor-type-id="sourcemapFileViewerProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nv.d3.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower_components/nvd3/build/nv.d3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15424" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -324,6 +120,7 @@
       <list>
         <option value="$PROJECT_DIR$/vendor/assets/javascripts/chart2.js" />
         <option value="$PROJECT_DIR$/vendor/assets/javascripts/highcharts.js" />
+        <option value="$PROJECT_DIR$/vendor/assets/javascripts/nvd3.js" />
       </list>
     </option>
   </component>
@@ -523,12 +320,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480701015066</updated>
-      <workItem from="1480701018521" duration="543000" />
+      <workItem from="1480701018521" duration="643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="543000" />
+    <option name="totallyTimeSpent" value="643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="100" y="0" width="1366" height="764" extended-state="0" />
@@ -567,22 +364,6 @@
     <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/echarts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/nvd3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/nvd3/build/nv.d3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3435">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -658,14 +439,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/chart2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="315">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <marker date="1480701398000" expanded="true" signature="83329:83346" ph="..." />
             <marker date="1480701398000" expanded="true" signature="113517:113534" ph="..." />
             <marker date="1480701398000" expanded="true" signature="246095:246112" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/nvd3/build/nv.d3.min.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/nvd3/build/nv.d3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15424" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/nvd3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="64" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
