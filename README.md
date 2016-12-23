@@ -4,7 +4,7 @@
 
 Chart ships with the following awesome charts:  
 
-* [ChartJS](https://github.com/nnnick/Chart.js/) (1.1.1 & 2.2.1) Note: chart.js and Chart2.js are not compatible 
+* [ChartJS](https://github.com/nnnick/Chart.js/) (1.1.1 & 2.2.1) Note: chart.js and Chart2.js are not compatible
 * [NVD3](https://github.com/novus/nvd3) (1.8.2)
 * [Google Chart](https://developers.google.com/chart/)
 * [Highchart](http://www.highcharts.com) (4.2.5)
@@ -137,3 +137,8 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/ytbrya
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+
+## Contact
+
+📮 Bryan Lim ytbryan@gmail.com
