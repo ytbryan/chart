@@ -1,4 +1,44 @@
 module Chart2Helper
+  def stackedbar 
+    html = "<canvas id=\"myChart_bar\" width=\"400\" height=\"400\"></canvas>".html_safe
+    script = javascript_tag do
+      <<-END.html_safe
+
+      var ctx = document.getElementById("myChart_bar");
+            var data = {
+            labels: ["January", "February", "March", "April", "May", "June", "July"],
+            datasets: [
+                {
+                    label: "My First dataset",
+                    backgroundColor: "rgba(255,99,132,0.2)",
+                    borderColor: "rgba(255,99,132,1)",
+                    borderWidth: 1,
+                    hoverBackgroundColor: "rgba(255,99,132,0.4)",
+                    hoverBorderColor: "rgba(255,99,132,1)",
+                    data: [65, 59, 80, 81, 56, 55, 40],
+                }
+            ]
+        };
+        
+        var stackedBar = new Chart(ctx, {
+            type: 'bar',
+            data: data,
+            options: {
+                scales: {
+                    xAxes: [{
+                        stacked: true
+                    }],
+                    yAxes: [{
+                        stacked: true
+                    }]
+                }
+            }
+        });
+
+      END
+    end
+    return html + script
+  end
 
   def chart2_bar id=nil, size=nil
     html = "<canvas id=\"myChart_bar\" width=\"400\" height=\"400\"></canvas>".html_safe

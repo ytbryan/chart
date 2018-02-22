@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "echarts": "^3.3.2"
+    "chartjs": "^0.3.24",
+    "echarts": "^3.3.2",
+    "highcharts": "^v5.0.6",
+    "nvd3": "^1.8.5"
   }
 }

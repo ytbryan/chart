@@ -91,13 +91,13 @@ module ChartHelper
   #
   # Chartjs
   #
-  def bar id=nil, size=nil, data=nil
-    html  = "<canvas id=\"bar_#{id}\" height=\"#{size[:height]}\" width=\"#{size[:width]}\"></canvas>".html_safe
+  def bar id=nil, size=nil, data=nil, options={}
+    html  = "<canvas id=\"bar_#{id}\"></canvas>".html_safe
     script = javascript_tag do
       <<-END.html_safe
         var barChartData = #{data}
         var ctx_#{id} = document.getElementById("bar_#{id}").getContext("2d");
-        window.myBar_#{id} = new Chart(ctx_#{id}).Bar(barChartData, {});
+        window.myBar_#{id} = new Chart(ctx_#{id}).Bar(barChartData, #{options.to_json});
       END
     end
     return html + script
