@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "chartjs": "^0.3.24",
-    "echarts": "^3.3.2",
+    "echarts": "^5.2.1",
     "highcharts": "^v5.0.6",
     "nvd3": "^1.8.5"
   }
